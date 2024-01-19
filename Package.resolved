@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Trace",
+        "repositoryURL": "https://github.com/SteveTrewick/Trace",
+        "state": {
+          "branch": null,
+          "revision": "c20fbce6887d4c66bac023cbddab6ce29a7f831a",
+          "version": "1.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
