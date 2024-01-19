@@ -7,16 +7,20 @@ The context object captures the current POSIX error and description
 
 
 ## Usage
-```
+
+```swift
+
 class POSIXThing {
   func somePOSIXshizzle() -> Result<T, Trace> {
     // ...
     return .posix(self, tag: "oh no, some posixy thing went horribly wrong!")
   }
 }
+
 ```
 Or simmilar, your Trace error now contains ...
-```
+```swift
+
   Trace ( tag     : "oh no, some posixy thing went horribly wrong!", 
           source  : "POSIXThing", 
           line    : 11, 
@@ -24,6 +28,7 @@ Or simmilar, your Trace error now contains ...
           function: "somePOSIXshizzle", 
           context : Optional(fallthrough.PosixError(errno: 1, strerror: "Operation not permitted"))
   )
+  
 ```
 
 
