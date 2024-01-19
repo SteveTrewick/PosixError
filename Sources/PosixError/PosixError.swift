@@ -1,5 +1,5 @@
 import Foundation
-import Trace
+@_exported import Trace
 
 public struct PosixError {
   public let errno    : Int32
