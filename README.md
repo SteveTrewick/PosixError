@@ -3,7 +3,9 @@
 Extends [Trace](https://github.com/SteveTrewick/Trace/tree/main) to provide a posix error number and message
 in the context.
 
-The context object captures the current POSIX error and description
+The context object captures the current POSIX error and description.
+
+Now compiles on Linux
 
 
 ## Usage
